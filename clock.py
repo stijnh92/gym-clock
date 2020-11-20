@@ -32,9 +32,9 @@ def prompt_time():
 
         if BTN_ADD_5.is_high():
             seconds += 5
-        if BTN_SUB_5.is_high():
+        elif BTN_SUB_5.is_high():
             seconds -= 5
-        if BTN_CONFIRM.is_high():
+        elif BTN_CONFIRM.is_high():
             return seconds
         time.sleep(0.2)
 
