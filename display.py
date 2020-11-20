@@ -9,4 +9,3 @@ seg = sevensegment(device)
 
 def show(text):
     seg.text = text
-ach
