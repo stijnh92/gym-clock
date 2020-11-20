@@ -13,5 +13,5 @@ class Output:
         GPIO.output(self.gpio, state)
 
     def off(self):
-        state = GPIO.LOW if self.initial == GPIO.LO else GPIO.HIGH
+        state = GPIO.LOW if self.initial == GPIO.LOW else GPIO.HIGH
         GPIO.output(self.gpio, state)
